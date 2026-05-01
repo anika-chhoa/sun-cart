@@ -4,7 +4,7 @@ import { MdLocationOn, MdMail, MdPhone } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-[#fcf9f8] border-t border-orange-100">
+    <footer className="w-full bg-sky-50/40 border-t border-orange-100">
       <div className="max-w-7xl mx-auto px-6 md:px-12 pt-16 pb-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
         <div className="flex flex-col gap-4">
           <span className="text-2xl font-extrabold tracking-tighter bg-gradient-to-r from-orange-500 to-amber-400 bg-clip-text text-transparent">

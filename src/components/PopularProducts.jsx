@@ -7,7 +7,7 @@ const PopularProducts = async() => {
   const popularProducts = products.slice(0, 3);
   console.log(popularProducts);
   return (
-    <div className="bg-[#fcf9f8] py-20 px-6 md:px-12">
+    <div className="bg-[#fcf9f8] py-16 px-6 md:px-12">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-12">
           <div>

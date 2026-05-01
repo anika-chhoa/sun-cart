@@ -32,20 +32,9 @@
     "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBBQJnyT0f5z9fWr_jkPFd3_nAq-S9tuw-i4_UhWbxqLauGbXWeFzfC9if7u3ooRnJG4nDoLycWRle_yz2TvJc3WwO7XzLrQ--eo_2zO2tHzOUNZh4AEtexQ-8txbbiUtX0-_wVLy8qGMM3R3NQq39tHCs8bvXG6fmfAwYmo-MwFUVj9gSLBpF6nkDzG9JW1YUz4RGFLK0hR_gRKMaHr9VQW4i71UinX6yrfNcLVFP5ce9CsF2FFhIFiR6csUaqtoj99eclDKHpjBs",
     "category": "Accessories"
   },
-  {
-    "id": 4,
-    "name": "Organic Cotton Tee",
-    "brand": "SunnyWear",
-    "price": 35,
-    "rating": 4.5,
-    "stock": 20,
-    "description": "Lightweight t-shirt ideal for beach and casual wear.",
-    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAXYU_bnNH8WUR3iZrAu4XUurSfEx58OJEDd8YXXLOokEgWuRHU7ABl9VfYFnOpWlyKyEf28919kzNhLSQ2uue8r1elcbF6hsgW7zYmzo6qwEInuStXW5gf7miYxhOQ5KEFbRhd9tJBOncxJAs_KczKtsto3j6fdysIZeooHuhWXuJc9eJZi1eoZuAw343nc3uCXcZZRB3UUKeVilIFv-fchhnMf1aiyKzUqhMal5BGkZiN0FIkWs-KBdyxxXGCfkR86tqMrwSwYO4",
-    "category": "Clothing"
-  },
 
   {
-    "id": 5,
+    "id": 4,
     "name": "Men's Linen Shirt",
     "brand": "BreezeWear",
     "price": 28,
@@ -56,7 +45,7 @@
     "category": "Clothing"
   },
   {
-  "id": 6,
+  "id": 5,
   "name": "Portable Smoothie Blender",
   "brand": "BlendGo",
   "price": 45,
@@ -67,7 +56,7 @@
   "category": "Appliances"
 },
   {
-    "id": 7,
+    "id": 6,
     "name": "Beach Flip Flops",
     "brand": "StepEasy",
     "price": 14,
@@ -76,6 +65,17 @@
     "description": "Comfortable flip flops perfect for beach and casual use.",
     "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBNxrRm41ZBwR7vJ_62R-oEi34UOwT3tRYBwhilRAEB_2mTmfQFb5bI4FuQfA2kfggXsCoR9NOEzqkhpo3yK7mL8nN9P6UFWDOOAxUaF7A4RgGJN1radQlZCdNc7_ulpKpSgHkmPLw0Hjh2E8ffk3VPpNhvYt9yy9X4nuIctjUs6wru0NESccL-mSHckzo-MlHn2P-P7ZqgRBPl8MIvLZcDFQWB6sV6OO9CsHwPAjqgmptAf9heDUaIYZLKldZ38CQH5wMG_ayLHkY",
     "category": "Footwear"
+  },
+  {
+    "id": 7,
+    "name": "Organic Cotton Tee",
+    "brand": "SunnyWear",
+    "price": 35,
+    "rating": 4.5,
+    "stock": 20,
+    "description": "Lightweight t-shirt ideal for beach and casual wear.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAXYU_bnNH8WUR3iZrAu4XUurSfEx58OJEDd8YXXLOokEgWuRHU7ABl9VfYFnOpWlyKyEf28919kzNhLSQ2uue8r1elcbF6hsgW7zYmzo6qwEInuStXW5gf7miYxhOQ5KEFbRhd9tJBOncxJAs_KczKtsto3j6fdysIZeooHuhWXuJc9eJZi1eoZuAw343nc3uCXcZZRB3UUKeVilIFv-fchhnMf1aiyKzUqhMal5BGkZiN0FIkWs-KBdyxxXGCfkR86tqMrwSwYO4",
+    "category": "Clothing"
   },
   {
     "id": 8,
