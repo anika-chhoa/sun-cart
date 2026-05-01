@@ -18,7 +18,7 @@
     "rating": 4.8,
     "stock": 30,
     "description": "High protection sunscreen for all skin types.",
-    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDf3NkACsX4DPVFmIjm5iaNwQh-p0Khb_5fkzwEtpSMy7BpTnMkOO2NkrVkue9axLKLQXN_bC7pNb9JRO5A3C6nrHVZacsTGhoZrcqSBSxrf3xy5ZYrfD3pwCN5c03kcLElJMVIOUaP5e2WEZS67YuaNGWqnP3BYCahlVC15lHumRQHnOgxwwzsy-rzZfq4vOGcsbMCl50LTe050plNUmqsuCT-ozX2bjXaN0suqp41czUgNkSB_0GuhZO_sypclHtkglZBREsknI0",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAbsvaUY4eRH0ErsT7yyOaXGh4-ZD3TvrkR1d96uKvMGaeOqzUOKE7ueAAYFCxnAQWYyu02bzduYxpav4iW5Dz_wmQYOMCe_8gO0vqrH1wutFX8PT-3S4cZGclZJjGOsi6G3UEEzm-tkMmuG0g7qZYGJqPnmfabhF0gitmuuWHrhdWePl-y-1Ci_T7-ErWYxVJrJhkBdeaSuBX-n7LwUlNkPn_hVVXDcwzofwcns4tSibtvZ7iM65a3IvZOWeXOkIR1u5748-joc3Q",
     "category": "Skincare"
   },
   {
@@ -29,7 +29,7 @@
     "rating": 4.6,
     "stock": 15,
     "description": "Wide-brim straw hat for sun protection and style.",
-    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDBXsINAxnF6vV1bksVXfn0DXU-BVD5tR-iIRsMEq9shQXZQXwpzTkW59tJtcWgziNyhrYsgcUR2F3x8Sj_WM0mZgx4MNP45hCim1bYpqHaso7z25idFYVEdJgt4ktbPeldhODM3EoYLARUSfCPDTHbHEwyaWMXhZHwrmw-oHgUcW65qX0hXgZ8mLtPXURUvPLooQjy3V9JKrUoOv7sMQca2YVxbTIvn9L8RGo2TVKVJUCpJUfmeohCP_8YXnjewTeg6To1ZYOxaVk",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuA8rijBB6yp9pTI5nZlBRyT0p32j4qisj2HwiyCbnfvOx0hLN2qj6g1tx3wl49C820x2qXYaoshm11AZgJ0VpaB_GCokzoDaDRlji9Ix8Rx_6NzgFQB_fWwGDSkklk1tVrzQozH0a0Sgwv185m6r9NvzuwrOXfDzAFbrOrgDCNm1abVsd0Z9K1-rHR_bqA9prleHjaq_Tm3OlpcewaWqh70AzPPkExZtyEoyjqmPo0dYWBfjRp8-ejyAXDpn5RcsesI6Z9SE6UvMjc",
     "category": "Accessories"
   },
   {
@@ -43,7 +43,7 @@
     "image": "https://alilang.com/products/floral-sunset-flowy-dress?srsltid=AfmBOooNh5Aj6IalDbn-DF-JYSE-5OxCA5kkhytS1tc5xwmhmLRUMaQV",
     "category": "Clothing"
   },
-  
+
   {
     "id": 5,
     "name": "Men's Linen Shirt",
@@ -56,16 +56,16 @@
     "category": "Clothing"
   },
   {
-  "id": 6,
-  "name": "Air Conditioner",
-  "brand": "CoolAir",
-  "price": 120,
-  "rating": 4.6,
-  "stock": 12,
-  "description": "Compact portable air conditioner with fast cooling, ideal for small rooms and summer heat.",
-  "image": "https://i.postimg.cc/1tWz3w7x/ac.png",
-  "category": "Appliances"
-},
+    "id": 6,
+    "name": "Air Conditioner",
+    "brand": "CoolAir",
+    "price": 120,
+    "rating": 4.6,
+    "stock": 12,
+    "description": "Compact portable air conditioner with fast cooling, ideal for small rooms and summer heat.",
+    "image": "https://i.postimg.cc/1tWz3w7x/ac.png",
+    "category": "Appliances"
+  },
   {
     "id": 7,
     "name": "Beach Flip Flops",
@@ -111,16 +111,16 @@
     "category": "Skincare"
   },
   {
-  "id": 11,
-  "name": "SPF 70 Sport Sunscreen Spray",
-  "brand": "SunGuard",
-  "price": 18,
-  "rating": 4.8,
-  "stock": 32,
-  "description": "Sweat-resistant SPF 70 sunscreen spray ideal for outdoor sports and long sun exposure.",
-  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDf3NkACsX4DPVFmIjm5iaNwQh-p0Khb_5fkzwEtpSMy7BpTnMkOO2NkrVkue9axLKLQXN_bC7pNb9JRO5A3C6nrHVZacsTGhoZrcqSBSxrf3xy5ZYrfD3pwCN5c03kcLElJMVIOUaP5e2WEZS67YuaNGWqnP3BYCahlVC15lHumRQHnOgxwwzsy-rzZfq4vOGcsbMCl50LTe050plNUmqsuCT-ozX2bjXaN0suqp41czUgNkSB_0GuhZO_sypclHtkglZBREsknI0",
-  "category": "Skincare"
-},
+    "id": 11,
+    "name": "SPF 70 Sport Sunscreen Spray",
+    "brand": "SunGuard",
+    "price": 18,
+    "rating": 4.8,
+    "stock": 32,
+    "description": "Sweat-resistant SPF 70 sunscreen spray ideal for outdoor sports and long sun exposure.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDf3NkACsX4DPVFmIjm5iaNwQh-p0Khb_5fkzwEtpSMy7BpTnMkOO2NkrVkue9axLKLQXN_bC7pNb9JRO5A3C6nrHVZacsTGhoZrcqSBSxrf3xy5ZYrfD3pwCN5c03kcLElJMVIOUaP5e2WEZS67YuaNGWqnP3BYCahlVC15lHumRQHnOgxwwzsy-rzZfq4vOGcsbMCl50LTe050plNUmqsuCT-ozX2bjXaN0suqp41czUgNkSB_0GuhZO_sypclHtkglZBREsknI0",
+    "category": "Skincare"
+  },
   {
     "id": 12,
     "name": "Insulated Water Bottle",

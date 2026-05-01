@@ -1,0 +1,47 @@
+import Link from "next/link";
+import ProductCard from "./ProductCard";
+
+const PopularProducts = async () => {
+  const res = await fetch("https://sun-cart-sooty.vercel.app/data.json");
+  const products = await res.json();
+  const popularProducts = products.slice(0, 3);
+  console.log(popularProducts);
+  return (
+    <div className="bg-[#fcf9f8] py-20 px-6 md:px-12">
+      <div className="max-w-7xl mx-auto">
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-12">
+          <div>
+            <span className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-orange-500 mb-4">
+              <span className="badge badge-lg bg-sky-100 text-sky-800 border-0 font-semibold tracking-widest text-xs uppercase px-4 py-3 mb-4">
+                Trending Now ✨
+              </span>
+            </span>
+            <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-base-content">
+              Popular{" "}
+              <span className="bg-gradient-to-r from-orange-500 to-amber-400 bg-clip-text text-transparent">
+                Products
+              </span>
+            </h2>
+            <p className="text-base-content/70 text-sm mt-2 max-w-md">
+              Handpicked summer essentials loved by thousands of customers.
+            </p>
+          </div>
+          <Link
+            href="/products"
+            className="btn btn-outline border-orange-400 text-orange-500 hover:bg-orange-500 hover:text-white hover:border-orange-500 rounded-full px-6 transition-all duration-200 shrink-0"
+          >
+            View All
+          </Link>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {popularProducts.map((product) => (
+            <ProductCard key={product.id} product={product} />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default PopularProducts;
