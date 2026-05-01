@@ -1,0 +1,135 @@
+[
+  {
+    "id": 1,
+    "name": "UV Protection Sunglasses",
+    "brand": "SunShade",
+    "price": 15,
+    "rating": 4.7,
+    "stock": 10,
+    "description": "Stylish UV protection sunglasses perfect for summer outings.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBmaQN2yJ7gbYe--tr9w-50o4563QnKINJUdqnr132CutAnXTXBDnkmXzfYIdtCc8gb9j9ICwgJqELM5gxtwT-9zsYLUw2TBWSKMbPa5lW2tQQWIgWI87MRlRwlZGrljxx9bTbNSUKtIdXUkiAxAy3gDyuxNj_HPEgAzmXpspQa6WuwZKRZCQkdK62MJAZ1LNqQZ0OsPdeNsA1TZ7cspwqOp4Wukg43tHa__t_IeFkGda2e-N9-5b4ymqIIwdsN_7JYXaY9_mtcmTM",
+    "category": "Accessories"
+  },
+  {
+    "id": 2,
+    "name": "SPF 50 Sunscreen Lotion",
+    "brand": "GlowCare",
+    "price": 12,
+    "rating": 4.8,
+    "stock": 30,
+    "description": "High protection sunscreen for all skin types.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDf3NkACsX4DPVFmIjm5iaNwQh-p0Khb_5fkzwEtpSMy7BpTnMkOO2NkrVkue9axLKLQXN_bC7pNb9JRO5A3C6nrHVZacsTGhoZrcqSBSxrf3xy5ZYrfD3pwCN5c03kcLElJMVIOUaP5e2WEZS67YuaNGWqnP3BYCahlVC15lHumRQHnOgxwwzsy-rzZfq4vOGcsbMCl50LTe050plNUmqsuCT-ozX2bjXaN0suqp41czUgNkSB_0GuhZO_sypclHtkglZBREsknI0",
+    "category": "Skincare"
+  },
+  {
+    "id": 3,
+    "name": "Beach Straw Hat",
+    "brand": "CoastalStyle",
+    "price": 18,
+    "rating": 4.6,
+    "stock": 15,
+    "description": "Wide-brim straw hat for sun protection and style.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDBXsINAxnF6vV1bksVXfn0DXU-BVD5tR-iIRsMEq9shQXZQXwpzTkW59tJtcWgziNyhrYsgcUR2F3x8Sj_WM0mZgx4MNP45hCim1bYpqHaso7z25idFYVEdJgt4ktbPeldhODM3EoYLARUSfCPDTHbHEwyaWMXhZHwrmw-oHgUcW65qX0hXgZ8mLtPXURUvPLooQjy3V9JKrUoOv7sMQca2YVxbTIvn9L8RGo2TVKVJUCpJUfmeohCP_8YXnjewTeg6To1ZYOxaVk",
+    "category": "Accessories"
+  },
+  {
+    "id": 4,
+    "name": "Floral Summer Dress",
+    "brand": "SunnyWear",
+    "price": 35,
+    "rating": 4.5,
+    "stock": 20,
+    "description": "Lightweight floral dress ideal for beach and casual wear.",
+    "image": "https://alilang.com/products/floral-sunset-flowy-dress?srsltid=AfmBOooNh5Aj6IalDbn-DF-JYSE-5OxCA5kkhytS1tc5xwmhmLRUMaQV",
+    "category": "Clothing"
+  },
+  
+  {
+    "id": 5,
+    "name": "Men's Linen Shirt",
+    "brand": "BreezeWear",
+    "price": 28,
+    "rating": 4.4,
+    "stock": 25,
+    "description": "Breathable linen shirt for hot summer days.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuA8rijBB6yp9pTI5nZlBRyT0p32j4qisj2HwiyCbnfvOx0hLN2qj6g1tx3wl49C820x2qXYaoshm11AZgJ0VpaB_GCokzoDaDRlji9Ix8Rx_6NzgFQB_fWwGDSkklk1tVrzQozH0a0Sgwv185m6r9NvzuwrOXfDzAFbrOrgDCNm1abVsd0Z9K1-rHR_bqA9prleHjaq_Tm3OlpcewaWqh70AzPPkExZtyEoyjqmPo0dYWBfjRp8-ejyAXDpn5RcsesI6Z9SE6UvMjc",
+    "category": "Clothing"
+  },
+  {
+  "id": 6,
+  "name": "Air Conditioner",
+  "brand": "CoolAir",
+  "price": 120,
+  "rating": 4.6,
+  "stock": 12,
+  "description": "Compact portable air conditioner with fast cooling, ideal for small rooms and summer heat.",
+  "image": "https://i.postimg.cc/1tWz3w7x/ac.png",
+  "category": "Appliances"
+},
+  {
+    "id": 7,
+    "name": "Beach Flip Flops",
+    "brand": "StepEasy",
+    "price": 14,
+    "rating": 4.3,
+    "stock": 50,
+    "description": "Comfortable flip flops perfect for beach and casual use.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBNxrRm41ZBwR7vJ_62R-oEi34UOwT3tRYBwhilRAEB_2mTmfQFb5bI4FuQfA2kfggXsCoR9NOEzqkhpo3yK7mL8nN9P6UFWDOOAxUaF7A4RgGJN1radQlZCdNc7_ulpKpSgHkmPLw0Hjh2E8ffk3VPpNhvYt9yy9X4nuIctjUs6wru0NESccL-mSHckzo-MlHn2P-P7ZqgRBPl8MIvLZcDFQWB6sV6OO9CsHwPAjqgmptAf9heDUaIYZLKldZ38CQH5wMG_ayLHkY",
+    "category": "Footwear"
+  },
+  {
+    "id": 8,
+    "name": "Portable Mini Fan",
+    "brand": "CoolBreeze",
+    "price": 20,
+    "rating": 4.6,
+    "stock": 18,
+    "description": "Rechargeable mini fan to keep you cool anywhere.",
+    "image": "https://www.bigw.com.au/product/portable-mini-handheld-desk-fan-cooling-cooler-usb-rechargeable-3-speed-orange/p/9901123013?srsltid=AfmBOopWgNsvYkYYL4LdTPpGcJXf5DK-nqF1Kus_rDRhfnN4ZvxNYaWR",
+    "category": "Gadgets"
+  },
+  {
+    "id": 9,
+    "name": "Summer Tote Bag",
+    "brand": "CarryAll",
+    "price": 22,
+    "rating": 4.5,
+    "stock": 22,
+    "description": "Spacious tote bag for beach essentials.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuA8rijBB6yp9pTI5nZlBRyT0p32j4qisj2HwiyCbnfvOx0hLN2qj6g1tx3wl49C820x2qXYaoshm11AZgJ0VpaB_GCokzoDaDRlji9Ix8Rx_6NzgFQB_fWwGDSkklk1tVrzQozH0a0Sgwv185m6r9NvzuwrOXfDzAFbrOrgDCNm1abVsd0Z9K1-rHR_bqA9prleHjaq_Tm3OlpcewaWqh70AzPPkExZtyEoyjqmPo0dYWBfjRp8-ejyAXDpn5RcsesI6Z9SE6UvMjc",
+    "category": "Accessories"
+  },
+  {
+    "id": 10,
+    "name": "Hydrating Face Mist",
+    "brand": "FreshSkin",
+    "price": 16,
+    "rating": 4.7,
+    "stock": 35,
+    "description": "Refreshing face mist to keep your skin hydrated.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuClDbAg_NExkyKpAppDZRDYFl3yX-5jDQfeiEM4qeqfnLbmA4iq78T-9F1cDcbMXE0HAtECjndNtu2mfxJepRCRaiXMGWqO8320kOunJpu9hAjQipMHuCm5oWNATvOSbFwXwQfgvni25ZThC6UmEcYzVBIqrh8eWqJxfNQR12DPxsGXieAIJhXDoQUMIRySVDcqpov3GnncMcPXA9dbJIOGFukmmiUw-_myRTzkGDbIvrU5IVlFmsenDpGpEyyGcCk5Zn5R2RL55HM",
+    "category": "Skincare"
+  },
+  {
+  "id": 11,
+  "name": "SPF 70 Sport Sunscreen Spray",
+  "brand": "SunGuard",
+  "price": 18,
+  "rating": 4.8,
+  "stock": 32,
+  "description": "Sweat-resistant SPF 70 sunscreen spray ideal for outdoor sports and long sun exposure.",
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDf3NkACsX4DPVFmIjm5iaNwQh-p0Khb_5fkzwEtpSMy7BpTnMkOO2NkrVkue9axLKLQXN_bC7pNb9JRO5A3C6nrHVZacsTGhoZrcqSBSxrf3xy5ZYrfD3pwCN5c03kcLElJMVIOUaP5e2WEZS67YuaNGWqnP3BYCahlVC15lHumRQHnOgxwwzsy-rzZfq4vOGcsbMCl50LTe050plNUmqsuCT-ozX2bjXaN0suqp41czUgNkSB_0GuhZO_sypclHtkglZBREsknI0",
+  "category": "Skincare"
+},
+  {
+    "id": 12,
+    "name": "Insulated Water Bottle",
+    "brand": "HydroMax",
+    "price": 19,
+    "rating": 4.8,
+    "stock": 45,
+    "description": "Keeps drinks cold for hours during summer heat.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDsmS-j3WqyW7jcN3__fva3TZ6pQGpSIKrw4wdK4TJbQXWSoKz-Z7ZtSU93CqGxzUwOW9yOivXei7A_DF2VyqLj_uqFPoOeIptYfO_MbwdaDlZaQ6u5DIUwz7ye-0a0E7UVyyMoxQUc_35mwIcmPGDftToRJXab0ME5oe8twFHva8mP-tlxUl4HSWL1U9XVkxOq1cxJbBHNEjFUv4DQA7UCThm0ZVhulWsrxaQg0UNe5b3BIMll456bpYkvU9eOjQIpVkg-0PWi_yw",
+    "category": "Accessories"
+  }
+]

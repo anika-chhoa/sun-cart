@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "UV Protection Sunglasses",
+    "category": "Accessories"
+  },
+  {
+    "id": 2,
+    "name": "SPF 50 Sunscreen Lotion",
+    "category": "Skincare"
+  },
+  {
+    "id": 3,
+    "name": "Beach Straw Hat",
+    "category": "Accessories"
+  },
+  {
+    "id": 4,
+    "name": "Floral Summer Dress",
+    "category": "Clothing"
+  },
+  {
+    "id": 5,
+    "name": "Men's Linen Shirt",
+    "category": "Clothing"
+  },
+  {
+    "id": 6,
+    "name": "Air Conditioner",
+    "category": "Appliances"
+  },
+  {
+    "id": 7,
+    "name": "Beach Flip Flops",
+    "category": "Footwear"
+  },
+  {
+    "id": 8,
+    "name": "Portable Mini Fan",
+    "category": "Gadgets"
+  },
+  {
+    "id": 9,
+    "name": "Summer Tote Bag",
+    "category": "Accessories"
+  },
+  {
+    "id": 10,
+    "name": "Hydrating Face Mist",
+    "category": "Skincare"
+  },
+  {
+    "id": 11,
+    "name": "SPF 70 Sport Sunscreen Spray",
+    "category": "Skincare"
+  },
+  {
+    "id": 12,
+    "name": "Insulated Water Bottle",
+    "category": "Accessories"
+  }
+]
