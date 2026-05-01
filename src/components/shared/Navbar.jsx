@@ -3,7 +3,7 @@ import NavLink from "./NavLink";
 
 const Navbar = () => {
   return (
-    <div className="border-b border-white/4 shadow-sm font-jakarta">
+    <div className="bg-white/70 backdrop-blur-xl border-b border-white/4 shadow-sm font-jakarta">
       <div className="navbar max-w-7xl mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
@@ -58,7 +58,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
            <button>
-            <Link href="/login" className="btn bg-orange-600 text-sm font-label-bold  text-white rounded-full shadow-lg hover:scale-105 transition-transform">
+            <Link href="/login" className="btn bg-orange-500 text-sm font-label-bold  text-white rounded-full shadow-lg hover:scale-105 transition-transform">
               Login
             </Link>
           </button>
