@@ -39,7 +39,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="font-jakarta text-2xl font-bold tracking-tighter bg-gradient-to-r from-orange-500 to-amber-400 bg-clip-text text-transparent">
+          <a className="font-jakarta text-2xl font-bold tracking-tighter bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent">
             SunCart
           </a>
         </div>
@@ -58,7 +58,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
            <button>
-            <Link href="/login" className="btn bg-orange-500 text-sm font-label-bold  text-white rounded-full shadow-lg hover:scale-105 transition-transform">
+            <Link href="/login" className="btn bg-gradient-to-r from-orange-500 to-amber-500 text-sm font-label-bold  text-white rounded-full shadow-lg hover:scale-105 transition-transform">
               Login
             </Link>
           </button>
