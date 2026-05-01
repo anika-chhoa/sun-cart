@@ -1,9 +1,9 @@
 import Link from "next/link";
 import ProductCard from "./ProductCard";
+import { getAllProducts } from "@/lib/data";
 
-const PopularProducts = async () => {
-  const res = await fetch("https://sun-cart-sooty.vercel.app/data.json");
-  const products = await res.json();
+const PopularProducts = async() => {
+  const products=await  getAllProducts();
   const popularProducts = products.slice(0, 3);
   console.log(popularProducts);
   return (

@@ -3,7 +3,7 @@ import NavLink from "./NavLink";
 
 const Navbar = () => {
   return (
-    <div className="bg-white/70 backdrop-blur-xl border-b border-white/4 shadow-sm font-jakarta">
+    <div className="bg-white/70 backdrop-blur-xl border-b border-white/4 shadow-sm sticky top-0 z-100">
       <div className="navbar max-w-7xl mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
