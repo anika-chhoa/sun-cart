@@ -114,7 +114,7 @@ const Footer = () => {
             <div className="join w-full">
               <input
                 type="email"
-                placeholder="your@email.com"
+                placeholder="Enter Your Email"
                 className="input input-sm join-item border border-orange-100 bg-white focus:outline-none focus:border-orange-300 w-full text-sm"
               />
               <button className="btn btn-sm join-item bg-orange-500 hover:bg-orange-600 text-white border-0">

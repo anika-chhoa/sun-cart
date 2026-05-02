@@ -10,7 +10,7 @@ const LoginPage = () => {
     <div className="min-h-screen bg-[#fcf9f8] flex items-center justify-center px-4 py-16">
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
-          <span className="text-3xl font-extrabold tracking-tighter bg-gradient-to-r from-orange-500 to-amber-400 bg-clip-text text-transparent">
+          <span className="text-3xl font-extrabold tracking-tighter bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent">
             SunCart
           </span>
           <p className="text-xs text-base-content/40 mt-1 tracking-widest uppercase font-semibold">
@@ -70,17 +70,16 @@ const LoginPage = () => {
                   )}
                 </button>
               </label>
-              
-             
-              <button className="btn btn-lg w-full border-orange-200 bg-white text-sm font-semibold text-base-content/70 rounded-full shadow-sm shadow-orange-100 hover:shadow-md hover:border-orange-300 hover:scale-[1.02] transition-transform duration-200 mt-2 tracking-wide">
-                <FaGoogle className="text-blue-500" /> Continue with Google
-              </button>
             </div>
 
             
-            <button className="btn btn-lg w-full bg-gradient-to-r from-orange-500 to-amber-400 text-white border-0 rounded-full shadow-lg shadow-orange-200/50 hover:scale-[1.02] transition-transform duration-200 mt-2 font-bold tracking-wide">
+            <button className="btn w-full bg-gradient-to-r from-orange-500 to-amber-500 text-white border-0 rounded-full shadow-lg shadow-orange-200/50 hover:scale-[1.02] transition-transform duration-200 mt-2 font-bold tracking-wide">
               Login
             </button>
+
+            <button className="btn w-full border-orange-200 bg-white text-sm font-semibold text-base-content/70 rounded-full shadow-sm shadow-orange-100 hover:shadow-md hover:border-orange-300 hover:scale-[1.02] transition-transform duration-200 mt-2 tracking-wide">
+                <FaGoogle className="text-blue-500" /> Continue with Google
+              </button>
 
             
             <div className="divider text-xs text-base-content/30 font-semibold">
