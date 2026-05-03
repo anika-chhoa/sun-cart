@@ -1,11 +1,10 @@
+import { getAllProducts } from "@/lib/data";
 import Link from "next/link";
 import ProductCard from "./ProductCard";
-import { getAllProducts } from "@/lib/data";
 
-const PopularProducts = async() => {
-  const products=await  getAllProducts();
+const PopularProducts = async () => {
+  const products = await getAllProducts();
   const popularProducts = products.slice(0, 3);
-  console.log(popularProducts);
   return (
     <div className="bg-[#fcf9f8] py-16 px-6 md:px-12">
       <div className="max-w-7xl mx-auto">

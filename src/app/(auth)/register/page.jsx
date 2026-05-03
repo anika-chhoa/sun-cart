@@ -1,6 +1,8 @@
 "use client";
 
+import { authClient } from "@/lib/auth-client";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { FaGoogle } from "react-icons/fa";
 import {
@@ -13,7 +15,30 @@ import {
 } from "react-icons/md";
 
 const RegisterPage = () => {
+  const router = useRouter();
+  const handleRegisterForm = async (e) => {
+    e.preventDefault();
+    const name = e.target.name.value;
+    const email = e.target.email.value;
+    const image = e.target.image.value;
+    const password = e.target.password.value;
+
+    const { data, error } = await authClient.signUp.email({
+      name,
+      email,
+      password,
+      image,
+    });
+    if (!error) {
+      router.push("/");
+    }
+  };
   const [showPassword, setShowPassword] = useState(false);
+  const handleGoogleSignIn = async () => {
+    const data = await authClient.signIn.social({
+      provider: "google",
+    });
+  };
 
   return (
     <div className="min-h-screen bg-[#fcf9f8] flex items-center justify-center px-4 py-16">
@@ -41,7 +66,7 @@ const RegisterPage = () => {
             </p>
           </div>
 
-          <form className="flex flex-col gap-5">
+          <form onSubmit={handleRegisterForm} className="flex flex-col gap-5">
             <div className="flex flex-col gap-1.5">
               <label className="text-xs font-bold uppercase tracking-widest text-base-content/50">
                 Full Name
@@ -80,7 +105,7 @@ const RegisterPage = () => {
                 <MdImage size={17} className="text-orange-300 shrink-0" />
                 <input
                   type="url"
-                  name="photoUrl"
+                  name="image"
                   placeholder="Enter Your Photo URL"
                   className="grow bg-transparent text-sm text-base-content placeholder:text-base-content/30 outline-none py-3"
                 />
@@ -121,6 +146,7 @@ const RegisterPage = () => {
             </button>
 
             <button
+              onClick={handleGoogleSignIn}
               type="button"
               className="btn w-full bg-white border border-orange-200 text-sm font-semibold text-base-content/70 rounded-full shadow-sm hover:shadow-md hover:border-orange-300 hover:scale-[1.02] transition-all duration-200 gap-3"
             >
