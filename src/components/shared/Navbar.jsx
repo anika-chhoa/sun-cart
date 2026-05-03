@@ -2,12 +2,12 @@
 import { authClient } from "@/lib/auth-client";
 import Image from "next/image";
 import Link from "next/link";
+import avatarImage from "../../assets/user.png";
 import NavLink from "./NavLink";
 
 const Navbar = () => {
   const userData = authClient.useSession();
   const user = userData.data?.user;
-  
 
   return (
     <div className="bg-white/70 backdrop-blur-xl border-b border-white/4 shadow-sm sticky top-0 z-100">
@@ -67,12 +67,7 @@ const Navbar = () => {
           {user ? (
             <div className="flex justify-center items-center gap-2">
               <Image
-                src={
-                  user?.image ||
-                  "https://www.shutterstock.com/image-vector/formal-suit-man-simple-flat-600nw-2666571367.jpg"
-                  // user?.name.charAt(0)
-                }
-                // src={user?.image}
+                src={user?.image ? user.image : avatarImage}
                 referrerPolicy="no-referrer"
                 alt="avatarImg"
                 width={40}
@@ -81,7 +76,7 @@ const Navbar = () => {
               />
               <button
                 onClick={async () => await authClient.signOut()}
-                className="btn bg-gradient-to-r from-orange-500 to-amber-500 text-sm font-label-bold  text-white rounded-full shadow-lg hover:scale-105 transition-transform"
+                className="btn btn-outline border-orange-400 text-orange-500 hover:bg-orange-500 hover:text-white rounded-full"
               >
                 Logout
               </button>

@@ -3,6 +3,7 @@ import { authClient } from "@/lib/auth-client";
 import Image from "next/image";
 import Link from "next/link";
 import { BiEdit } from "react-icons/bi";
+import avatarImage from "../../../assets/user.png";
 
 const ProfilePage = () => {
   const userData = authClient.useSession();
@@ -15,12 +16,7 @@ const ProfilePage = () => {
           <div className="bg-orange-50 px-4 md:px-20 lg:px-32 py-4 md:py-8 mx-auto rounded-md shadow-md space-y-4 text-center flex flex-col justify-center items-center">
             <figure className="mx-auto">
               <Image
-                src={
-                  user?.image ||
-                  "https://www.shutterstock.com/image-vector/formal-suit-man-simple-flat-600nw-2666571367.jpg"
-                  // user?.name.charAt(0)
-                }
-                // src={user?.image}
+                src={user?.image ? user.image : avatarImage}
                 referrerPolicy="no-referrer"
                 alt="avatarImg"
                 width={120}
