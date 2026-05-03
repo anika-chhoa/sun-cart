@@ -49,26 +49,12 @@ const ProductDetails = async ({ params }) => {
               </h1>
 
               <div className="flex items-center gap-3">
-                <div className="flex items-center gap-1">
-                  {[1, 2, 3, 4, 5].map((star) => {
-                    const filled = star <= Math.floor(targetProduct.rating);
-                    const half =
-                      !filled && star === Math.ceil(targetProduct.rating);
-                    return (
-                      <span key={star} className="relative inline-block">
-                        <FaStar size={16} className="text-base-content/20" />
-                        {(filled || half) && (
-                          <span
-                            className="absolute inset-0 overflow-hidden"
-                            style={{ width: half ? "50%" : "100%" }}
-                          >
-                            <FaStar size={16} className="text-amber-400" />
-                          </span>
-                        )}
-                      </span>
-                    );
-                  })}
-                </div>
+                <div className="flex items-center gap-1 opacity-90">
+          <FaStar size={13} className="text-amber-400" />
+          <span className="text-xs font-semibold text-base-content/50 ml-1">
+            ({targetProduct.rating})
+          </span>
+        </div>
                 <span className="text-sm font-semibold text-base-content/60">
                   {targetProduct.rating} out of 5
                 </span>
