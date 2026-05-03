@@ -4,6 +4,7 @@ import { authClient } from "@/lib/auth-client";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import { useForm } from "react-hook-form";
 import { FaGoogle } from "react-icons/fa";
 import {
   MdEmail,
@@ -13,26 +14,33 @@ import {
   MdVisibility,
   MdVisibilityOff,
 } from "react-icons/md";
+import { toast } from "react-toastify";
 
 const RegisterPage = () => {
   const router = useRouter();
-  const handleRegisterForm = async (e) => {
-    e.preventDefault();
-    const name = e.target.name.value;
-    const email = e.target.email.value;
-    const image = e.target.image.value;
-    const password = e.target.password.value;
+  const handleRegisterForm = async (data) => {
+    const { name, image, email, password } = data;
 
-    const { data, error } = await authClient.signUp.email({
+    const { data: res, error } = await authClient.signUp.email({
       name,
       email,
       password,
       image,
     });
-    if (!error) {
-      router.push("/");
+    if (error) {
+      toast.error(error.message);
+    } else {
+      toast.success("SignUp Successfully");
+      router.push("/login");
     }
   };
+  const {
+    register,
+    handleSubmit,
+    watch,
+    formState: { errors },
+  } = useForm();
+
   const [showPassword, setShowPassword] = useState(false);
   const handleGoogleSignIn = async () => {
     const data = await authClient.signIn.social({
@@ -41,7 +49,7 @@ const RegisterPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#fcf9f8] flex items-center justify-center px-4 py-16">
+    <div className="min-h-screen bg-[#fcf9f8] flex items-center justify-center px-4 py-12">
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <span className="text-3xl font-extrabold tracking-tighter bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent">
@@ -66,61 +74,93 @@ const RegisterPage = () => {
             </p>
           </div>
 
-          <form onSubmit={handleRegisterForm} className="flex flex-col gap-5">
+          <form
+            onSubmit={handleSubmit(handleRegisterForm)}
+            className="flex flex-col gap-5"
+          >
             <div className="flex flex-col gap-1.5">
               <label className="text-xs font-bold uppercase tracking-widest text-base-content/50">
                 Full Name
               </label>
-              <label className="w-full input bg-amber-50/50 border border-orange-100 rounded-2xl flex items-center gap-3 px-4 focus-within:border-orange-300 transition-colors">
+              <fieldset className="w-full input bg-amber-50/50 border border-orange-100 rounded-2xl flex items-center gap-3 px-4 focus-within:border-orange-300 transition-colors">
                 <MdPerson size={17} className="text-orange-300 shrink-0" />
                 <input
                   type="text"
                   name="name"
+                  {...register("name", { required: "Name field is required" })}
                   placeholder="Enter Your Name"
                   className="grow bg-transparent text-sm text-base-content placeholder:text-base-content/30 outline-none py-3"
                 />
-              </label>
+              </fieldset>
+              {errors.name && (
+                <span className="text-red-600 text-xs">
+                  {errors.name.message}
+                </span>
+              )}
             </div>
 
             <div className="flex flex-col gap-1.5">
               <label className="text-xs font-bold uppercase tracking-widest text-base-content/50">
                 Email
               </label>
-              <label className="w-full input bg-amber-50/50 border border-orange-100 rounded-2xl flex items-center gap-3 px-4 focus-within:border-orange-300 transition-colors">
+              <fieldset className="w-full input bg-amber-50/50 border border-orange-100 rounded-2xl flex items-center gap-3 px-4 focus-within:border-orange-300 transition-colors">
                 <MdEmail size={17} className="text-orange-300 shrink-0" />
                 <input
                   type="email"
                   name="email"
+                  {...register("email", {
+                    required: "Email field is required",
+                  })}
                   placeholder=" Enter Your Email"
                   className="grow bg-transparent text-sm text-base-content placeholder:text-base-content/30 outline-none py-3"
                 />
-              </label>
+              </fieldset>
+              {errors.email && (
+                <span className="text-red-600 text-xs">
+                  {errors.email.message}
+                </span>
+              )}
             </div>
 
             <div className="flex flex-col gap-1.5">
               <label className="text-xs font-bold uppercase tracking-widest text-base-content/50">
                 Photo URL
               </label>
-              <label className="w-full input bg-amber-50/50 border border-orange-100 rounded-2xl flex items-center gap-3 px-4 focus-within:border-orange-300 transition-colors">
+              <fieldset className="w-full input bg-amber-50/50 border border-orange-100 rounded-2xl flex items-center gap-3 px-4 focus-within:border-orange-300 transition-colors">
                 <MdImage size={17} className="text-orange-300 shrink-0" />
                 <input
                   type="url"
                   name="image"
+                  {...register("image", {
+                    required: "Image URL field is required",
+                  })}
                   placeholder="Enter Your Photo URL"
                   className="grow bg-transparent text-sm text-base-content placeholder:text-base-content/30 outline-none py-3"
                 />
-              </label>
+              </fieldset>
+              {errors.image && (
+                <span className="text-red-600 text-xs">
+                  {errors.image.message}
+                </span>
+              )}
             </div>
 
             <div className="flex flex-col gap-1.5">
               <label className="text-xs font-bold uppercase tracking-widest text-base-content/50">
                 Password
               </label>
-              <label className="w-full input bg-amber-50/50 border border-orange-100 rounded-2xl flex items-center gap-3 px-4 focus-within:border-orange-300 transition-colors">
+              <fieldset className="w-full input bg-amber-50/50 border border-orange-100 rounded-2xl flex items-center gap-3 px-4 focus-within:border-orange-300 transition-colors">
                 <MdLock size={17} className="text-orange-300 shrink-0" />
                 <input
                   type={showPassword ? "text" : "password"}
                   name="password"
+                  {...register("password", {
+                    required: "Password field is required",
+                    minLength: {
+                      value: 8,
+                      message: "Password must be at least 8 characters long",
+                    },
+                  })}
                   placeholder="Enter Your Password"
                   className="grow bg-transparent text-sm text-base-content placeholder:text-base-content/30 outline-none py-3"
                 />
@@ -135,7 +175,12 @@ const RegisterPage = () => {
                     <MdVisibility size={17} />
                   )}
                 </button>
-              </label>
+              </fieldset>
+              {errors.password && (
+                <span className="text-red-600 text-xs">
+                  {errors.password.message}
+                </span>
+              )}
             </div>
 
             <button

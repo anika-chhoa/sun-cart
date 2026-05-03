@@ -72,6 +72,7 @@ const Navbar = () => {
                   "https://www.shutterstock.com/image-vector/formal-suit-man-simple-flat-600nw-2666571367.jpg"
                   // user?.name.charAt(0)
                 }
+                // src={user?.image}
                 referrerPolicy="no-referrer"
                 alt="avatarImg"
                 width={40}

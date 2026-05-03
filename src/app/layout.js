@@ -1,4 +1,5 @@
 import { Plus_Jakarta_Sans } from "next/font/google";
+import { ToastContainer } from "react-toastify";
 import "./globals.css";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
@@ -8,7 +9,8 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 export const metadata = {
   title: "SunCart - Summer Essentials Store",
-  description: "SunCart is your ultimate destination for premium summer essentials. Shop sunglasses, outfits, skincare, and beach accessories with exclusive seasonal deals and modern shopping experience.",
+  description:
+    "SunCart is your ultimate destination for premium summer essentials. Shop sunglasses, outfits, skincare, and beach accessories with exclusive seasonal deals and modern shopping experience.",
 };
 
 export default function RootLayout({ children }) {
@@ -18,7 +20,10 @@ export default function RootLayout({ children }) {
       data-theme="light"
       className={`${plusJakartaSans.className} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {children}
+        <ToastContainer position="top-center" />
+      </body>
     </html>
   );
 }
