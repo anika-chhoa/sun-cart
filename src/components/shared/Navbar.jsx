@@ -7,7 +7,7 @@ import NavLink from "./NavLink";
 const Navbar = () => {
   const userData = authClient.useSession();
   const user = userData.data?.user;
-  console.log(user);
+  
 
   return (
     <div className="bg-white/70 backdrop-blur-xl border-b border-white/4 shadow-sm sticky top-0 z-100">
