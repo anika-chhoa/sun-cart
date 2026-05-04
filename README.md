@@ -82,12 +82,11 @@ npm run dev
 
 ## Environment Variables
 
-Create a `.env.local` file in the root directory and add the following:
 
 ```env
 NEXT_PUBLIC_BASE_URL=your_base_url
 BETTER_AUTH_SECRET=your_secret_key
 GOOGLE_CLIENT_ID=your_google_client_id
 GOOGLE_CLIENT_SECRET=your_google_secret
-
+```
 Live Link: https://sun-cart-sooty.vercel.app/
