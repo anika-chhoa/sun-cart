@@ -1,15 +1,18 @@
 import Link from "next/link";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
-import { MdLocationOn, MdMail, MdPhone } from "react-icons/md";
+import { MdLocationOn, MdMail, MdPhone, MdSunny } from "react-icons/md";
 
 const Footer = () => {
   return (
     <footer className="w-full bg-sky-50/40 border-t border-orange-100">
       <div className="max-w-7xl mx-auto px-6 md:px-12 pt-16 pb-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
         <div className="flex flex-col gap-4">
-          <span className="text-2xl font-extrabold tracking-tighter bg-gradient-to-r from-orange-500 to-amber-400 bg-clip-text text-transparent">
-            SunCart
-          </span>
+          <div className="flex justify-center items-center gap-1.5">
+            <MdSunny className="text-amber-500 text-xl" />
+            <a className="font-jakarta text-2xl font-bold tracking-tighter bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent">
+              SunCart
+            </a>
+          </div>
           <p className="text-sm leading-relaxed text-base-content/50 max-w-[220px]">
             Sun-drenched essentials for the discerning traveler. Quality
             craftsmanship for your best summer yet.

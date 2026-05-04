@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import avatarImage from "../../assets/user.png";
 import NavLink from "./NavLink";
+import { MdSunny } from "react-icons/md";
 
 const Navbar = () => {
   const userData = authClient.useSession();
@@ -46,9 +47,12 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
+          <div className="flex justify-center items-center gap-1.5">
+            <MdSunny className="text-amber-500 text-xl" /> 
           <a className="font-jakarta text-2xl font-bold tracking-tighter bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent">
             SunCart
           </a>
+          </div>
         </div>
         <div className="navbar-center hidden md:flex">
           <ul className="flex gap-4">
