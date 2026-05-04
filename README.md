@@ -8,7 +8,7 @@ SunCart provides a smooth and user-friendly shopping experience focused on summe
 
 ##  Key Features
 
-### 🛍️ Product Browsing
+### Product Browsing
 - Display products from a static JSON dataset  
 - Product cards include image, name, rating, and price  
 - “View Details” button for each product  
