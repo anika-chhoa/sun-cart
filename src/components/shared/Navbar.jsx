@@ -66,14 +66,16 @@ const Navbar = () => {
         <div className="navbar-end">
           {user ? (
             <div className="flex justify-center items-center gap-2">
-              <Image
-                src={user?.image ? user.image : avatarImage}
-                referrerPolicy="no-referrer"
-                alt="avatarImg"
-                width={40}
-                height={40}
-                className="rounded-full"
-              />
+              <Link href="/profile">
+                <Image
+                  src={user?.image ? user.image : avatarImage}
+                  referrerPolicy="no-referrer"
+                  alt="avatarImg"
+                  width={40}
+                  height={40}
+                  className="rounded-full"
+                />
+              </Link>
               <button
                 onClick={async () => await authClient.signOut()}
                 className="btn btn-outline border-orange-400 text-orange-500 hover:bg-orange-500 hover:text-white rounded-full"
@@ -82,14 +84,22 @@ const Navbar = () => {
               </button>
             </div>
           ) : (
-            <button>
+            <div className="flex justify-center items-center gap-2">
+              <button>
+                <Link
+                  href="/login"
+                  className="btn bg-gradient-to-r from-orange-500 to-amber-500 text-sm font-label-bold  text-white rounded-full shadow-lg hover:scale-105 transition-transform"
+                >
+                  Login
+                </Link>
+              </button>
               <Link
-                href="/login"
-                className="btn bg-gradient-to-r from-orange-500 to-amber-500 text-sm font-label-bold  text-white rounded-full shadow-lg hover:scale-105 transition-transform"
+                href="/register"
+                className="hidden sm:inline-flex btn btn-outline border-orange-400 text-orange-500 hover:bg-orange-500 hover:text-white rounded-full"
               >
-                Login
+                Register
               </Link>
-            </button>
+            </div>
           )}
         </div>
       </div>
