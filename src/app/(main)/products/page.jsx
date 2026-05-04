@@ -39,9 +39,20 @@ const ProductsPage = async ({ searchParams }) => {
         <Categories searchParams={searchParams} />
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredProducts.map((product) => (
-            <ProductCard key={product.id} product={product} />
-          ))}
+          {filteredProducts.length > 0 ? (
+            filteredProducts.map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))
+          ) : (
+            <div className="col-span-full text-center py-16">
+              <h2 className="text-xl font-semibold text-gray-600">
+                No products found
+              </h2>
+              <p className="text-sm text-gray-400 mt-2">
+                Try searching with a different name or category.
+              </p>
+            </div>
+          )}
         </div>
       </div>
     </div>
