@@ -2,15 +2,15 @@
 
 A modern and responsive eCommerce web application where users can explore and purchase summer products like sunglasses, outfits, skincare, and beach accessories.
 
-## Project Overview
-
-SunCart provides a smooth and user-friendly shopping experience focused on summer essentials. Users can browse products, view detailed information, and place orders after authentication. The project emphasizes clean UI design, responsiveness, and secure user authentication.
-
 ## Project Preview
 
 > Homepage of SunCart eCommerce platform
 
 > ![SunCart Screenshot](./src/assets/SunCart.png.png)
+
+## Project Overview
+
+SunCart provides a smooth and user-friendly shopping experience focused on summer essentials. Users can browse products, view detailed information, and place orders after authentication. The project emphasizes clean UI design, responsiveness, and secure user authentication.
 
 ## Key Features
 
