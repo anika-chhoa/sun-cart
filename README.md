@@ -7,7 +7,7 @@ A modern and responsive eCommerce web application where users can explore and pu
 ## 🚀 Live Demo
 
 🌐 Live Site: https://sun-cart-sooty.vercel.app/  
-💻 GitHub Repository: https://github.com/your-username/suncart.git  
+💻 GitHub Repository: https://github.com/your-username/suncart.git
 
 ---
 
@@ -15,7 +15,7 @@ A modern and responsive eCommerce web application where users can explore and pu
 
 > Homepage of SunCart eCommerce platform
 
-![SunCart Screenshot](./src/assets/SunCart.png)
+![SunCart Screenshot](./src/assets/SunCart.png.png)
 
 ---
 
@@ -28,40 +28,45 @@ SunCart provides a smooth and user-friendly shopping experience focused on summe
 ## ✨ Key Features
 
 ### 🛍️ Product Browsing
-- Static JSON-based product listing  
-- Product cards with image, price, rating  
-- View product details  
+
+- Static JSON-based product listing
+- Product cards with image, price, rating
+- View product details
 
 ### 🔐 Authentication System
-- Email/password login & registration  
-- Google authentication  
-- Protected routes  
-- Redirect after login  
+
+- Email/password login & registration
+- Google authentication
+- Protected routes
+- Redirect after login
 
 ### 📦 Product Details (Protected)
-- Full product information  
-- Accessible only for logged-in users  
+
+- Full product information
+- Accessible only for logged-in users
 
 ### 👤 Profile System
-- View user profile  
-- Update profile info  
+
+- View user profile
+- Update profile info
 
 ### 🎨 UI/UX
-- Fully responsive design  
-- Clean summer-themed UI  
-- Toast notifications  
+
+- Fully responsive design
+- Clean summer-themed UI
+- Toast notifications
 
 ---
 
 ## 🛠️ Technologies Used
 
-- Next.js (App Router)  
-- Tailwind CSS  
-- DaisyUI  
-- BetterAuth  
-- Animate.css  
-- React Icons  
-- React Toastify  
+- Next.js (App Router)
+- Tailwind CSS
+- DaisyUI
+- BetterAuth
+- Animate.css
+- React Icons
+- React Toastify
 
 ---
 
@@ -84,21 +89,25 @@ animate.css
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the Repository
+
 ```bash
 git clone https://github.com/your-username/suncart.git
 ```
 
 ### 2️⃣ Navigate to Project Folder
+
 ```bash
 cd suncart
 ```
 
 ### 3️⃣ Install Dependencies
+
 ```bash
 npm install
 ```
 
 ### 4️⃣ Run Development Server
+
 ```bash
 npm run dev
 ```
@@ -120,22 +129,22 @@ GOOGLE_CLIENT_SECRET=your_google_secret
 
 ## 🎯 Learning Outcomes
 
-- Next.js App Router structure  
-- Authentication system integration  
-- Protected routes handling  
-- API + JSON data handling  
-- UI/UX design improvement  
-- Real-world eCommerce flow  
+- Next.js App Router structure
+- Authentication system integration
+- Protected routes handling
+- API + JSON data handling
+- UI/UX design improvement
+- Real-world eCommerce flow
 
 ---
 
 ## 🔥 Future Improvements
 
-- Add payment gateway (Stripe)  
-- Add cart system  
-- Add order history  
-- Add admin dashboard  
-- Improve product filtering & search  
+- Add payment gateway (Stripe)
+- Add cart system
+- Add order history
+- Add admin dashboard
+- Improve product filtering & search
 
 ---
 
@@ -148,4 +157,4 @@ GOOGLE_CLIENT_SECRET=your_google_secret
 ## 👨‍💻 Author
 
 **Anika Mizan**  
-Frontend Developer | React & Next.js Enthusiast | MERN Stack Learner  
+Frontend Developer | React & Next.js Enthusiast | MERN Stack Learner
