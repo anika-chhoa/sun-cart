@@ -9,7 +9,8 @@ SunCart provides a smooth and user-friendly shopping experience focused on summe
 ## Project Preview
 
 > Homepage of SunCart eCommerce platform
-> ![SunCart Screenshot](./src/assets/suncart-preview.png)
+
+> ![SunCart Screenshot](./src/assets/SunCart.png.png)
 
 ## Key Features
 
