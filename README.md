@@ -1,108 +1,151 @@
-# SunCart — Summer Essentials Store
+# 🌞 SunCart — Summer Essentials Store
 
 A modern and responsive eCommerce web application where users can explore and purchase summer products like sunglasses, outfits, skincare, and beach accessories.
 
-## Project Preview
+---
+
+## 🚀 Live Demo
+
+🌐 Live Site: https://sun-cart-sooty.vercel.app/  
+💻 GitHub Repository: https://github.com/your-username/suncart.git  
+
+---
+
+## 📸 Project Preview
 
 > Homepage of SunCart eCommerce platform
 
-> ![SunCart Screenshot](./src/assets/SunCart.png.png)
+![SunCart Screenshot](./src/assets/SunCart.png)
 
-## Project Overview
+---
 
-SunCart provides a smooth and user-friendly shopping experience focused on summer essentials. Users can browse products, view detailed information, and place orders after authentication. The project emphasizes clean UI design, responsiveness, and secure user authentication.
+## 📖 Project Overview
 
-## Key Features
+SunCart provides a smooth and user-friendly shopping experience focused on summer essentials. Users can browse products, view details, and place orders after authentication with a clean and responsive UI.
 
-### Product Browsing
+---
 
-- Display products from a static JSON dataset
-- Product cards include image, name, rating, and price
-- “View Details” button for each product
+## ✨ Key Features
 
-### Authentication System
+### 🛍️ Product Browsing
+- Static JSON-based product listing  
+- Product cards with image, price, rating  
+- View product details  
 
-- Email & password login and registration
-- Google login integration
-- Protected routes (Product Details page)
-- Redirect to intended page after login
+### 🔐 Authentication System
+- Email/password login & registration  
+- Google authentication  
+- Protected routes  
+- Redirect after login  
 
-### Product Details (Protected)
+### 📦 Product Details (Protected)
+- Full product information  
+- Accessible only for logged-in users  
 
-- Full product details view
-- Accessible only for logged-in users
+### 👤 Profile System
+- View user profile  
+- Update profile info  
 
-### My Profile (Bonus Feature)
+### 🎨 UI/UX
+- Fully responsive design  
+- Clean summer-themed UI  
+- Toast notifications  
 
-- View user information (name, email, photo)
-- Update profile (name & image)
+---
 
-### UI & UX
+## 🛠️ Technologies Used
 
-- Fully responsive (Mobile, Tablet, Desktop)
-- Clean and modern summer-themed design
-- Toast notifications for feedback
+- Next.js (App Router)  
+- Tailwind CSS  
+- DaisyUI  
+- BetterAuth  
+- Animate.css  
+- React Icons  
+- React Toastify  
 
-### Extra Sections
+---
 
-- Hero banner
-- Popular Products section
-- Summer Care Tips
-- Top Brands showcase
+## 📦 Dependencies Used
 
-## Technologies Used
+```
+next
+react
+react-dom
+tailwindcss
+daisyui
+better-auth
+react-icons
+react-toastify
+animate.css
+```
 
-- Next.js (App Router)
-- Tailwind CSS
-- DaisyUI
-- BetterAuth
-- Animate.css
-- React Icons
-- React Toastify
+---
 
-## Project Structure
+## ⚙️ Installation & Setup
 
-### Components
-
-Reusable UI elements such as Navbar, Footer, Product Card, etc.
-
-### Pages
-
-- Home
-- Products
-- Product Details (Protected)
-- Login
-- Register
-- My Profile
-- Update Profile
-
-### Data
-
-- Static JSON file for product data
-
-## Installation & Setup
-
-````bash
-# Clone the repository
+### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/your-username/suncart.git
+```
 
-# Navigate to project directory
+### 2️⃣ Navigate to Project Folder
+```bash
 cd suncart
+```
 
-# Install dependencies
+### 3️⃣ Install Dependencies
+```bash
 npm install
+```
 
-# Run development server
+### 4️⃣ Run Development Server
+```bash
 npm run dev
+```
 
-## Environment Variables
+---
 
+## 🔐 Environment Variables
+
+Create `.env.local` file:
 
 ```env
 NEXT_PUBLIC_BASE_URL=your_base_url
 BETTER_AUTH_SECRET=your_secret_key
 GOOGLE_CLIENT_ID=your_google_client_id
 GOOGLE_CLIENT_SECRET=your_google_secret
-````
+```
 
-Live Link: https://sun-cart-sooty.vercel.app/
+---
+
+## 🎯 Learning Outcomes
+
+- Next.js App Router structure  
+- Authentication system integration  
+- Protected routes handling  
+- API + JSON data handling  
+- UI/UX design improvement  
+- Real-world eCommerce flow  
+
+---
+
+## 🔥 Future Improvements
+
+- Add payment gateway (Stripe)  
+- Add cart system  
+- Add order history  
+- Add admin dashboard  
+- Improve product filtering & search  
+
+---
+
+## 🔗 Live Link
+
+🌐 https://sun-cart-sooty.vercel.app/
+
+---
+
+## 👨‍💻 Author
+
+**Anika Mizan**  
+Frontend Developer | React & Next.js Enthusiast | MERN Stack Learner  
